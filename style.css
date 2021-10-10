@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 31rem;
+    height: 37rem;
+    margin: auto;
+    background-color: black;
+    position: relative;
+}
+.calculator{
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    margin-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+.function_4 {
+    background-color: #F79E11 ;
+    border-radius: 50px;
+    color: white;
+}
+.firstl{
+    background-color:#A5A4A5 ;
+    border-radius: 50px;
+}
+.number{
+    background-color:#333333 ;
+    border-radius: 50px;
+    color: white;
+}
+
+.buttons button{
+    font-size: 1.5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    margin: 0.4rem;
+    border: none;
+    
+}
+#sıfır{
+    padding: 0px 4.75rem;
+    border-radius: 50px;
+    background-color:#333333 ;
+    color: white;
+
+
+}
+
+
+    
+  
