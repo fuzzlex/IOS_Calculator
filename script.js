@@ -1,19 +1,15 @@
 let resultEl = document.getElementById("result");
 
-let counter1 = 0; 
-let counter2 = 0;
-let counter3 = 0; 
-let counter4 = 0;
-let counter5 = 0; 
-let counter6 = 0; 
-let counter7 = 0; 
-let counter8 = 0;
-let counter9 = 0; 
-let counter0 = 0;
+
 let clickco = 0;  
+let topl = 0;
+let sonuc = 0;
 
 function cleane(){
     resultEl.innerHTML = 0;
+    topl = 0;
+    clickco = 0;
+    sonuc = 0;
 }
 
 function posnegfu(num1) {
@@ -26,82 +22,69 @@ function divederFu(counter,num2) {
 function multipyFu(num1,num2) {
     resultEl.innerHTML = num1 * num2; 
 }
-function plusFu(num1,num2) {
-    resultEl.innerHTML = num1 + num2; 
+function plusFu() {
+    let n = 0;
+    reverse = 0;
+   
+
+    
+    n=Number(topl,0);
+    let newTopl1 = (Number(String(Math.abs(n)).split('').reverse().join(''))); 
+    topl = 0;
+    clickco = 0;
+
+    sonuc += newTopl1;
+
+    resultEl.textContent = sonuc; 
+    
 }
 function cıkarFu(num1,num2) {
     resultEl.innerHTML = num1 - num2;  
 }
 function sevenFu(){
-    counter7 *= 10 ;
-    if(counter7 == 0){
-        resultEl.textContent = 7;
-    }else {resultEl.textContent += (7 * counter7 + 7);}
-    counter7++;
+    if(clickco == 0){resultEl.textContent = 7; topl += 7;}else {resultEl.textContent += 7; topl += (7 * 10 ** clickco);}
+    clickco++;
+  
+}
+
+function eigthFu(){
+    if(clickco == 0){resultEl.textContent = 8; topl += 8;}else {resultEl.textContent += 8; topl += (8 * 10 ** clickco);}
     clickco++;
 }
-function eigthFu(){
-    counter8 *= 10 ;
-    if(counter8 == 0){
-        resultEl.textContent = 8;
-    }else {resultEl.textContent += (8 * counter8 + 8);}
-    counter8++;
-}
+
 function nineFu(){
-    counter9 *= 10 ;
-    if(counter9 == 0){
-        resultEl.textContent = 9;
-    }else {resultEl.textContent += (9 * counter9 + 9);}
-    counter9++;
+    if(clickco == 0){resultEl.textContent = 9; topl += 9;}else {resultEl.textContent += 9; topl += (9 * 10 ** clickco);}
+    clickco++;
 }
+
 function fourFu(){
-    counter4 *= 10 ;
-    if(counter4 == 0){
-        resultEl.textContent = 4;
-    }else {resultEl.textContent += (4 * counter4 + 4);}
-    counter4++;
+    if(clickco == 0){resultEl.textContent = 4; topl += 4;}else {resultEl.textContent += 4; topl += (4 * 10 ** clickco);}
+    clickco++;
 }
 function fiveFu(){
-    counter5 *= 10 ;
-    if(counter5 == 0){
-        resultEl.textContent = 5;
-    }else {resultEl.textContent += (5 * counter5 + 5);}
-    counter5++;
+    if(clickco == 0){resultEl.textContent = 5; topl += 5;}else {resultEl.textContent += 5; topl += (5 * 10 ** clickco);}
+    clickco++;
 }
 function sixFu(){
-    counter6 *= 10 ;
-    if(counter6 == 0){
-        resultEl.textContent = 6;
-    }else {resultEl.textContent += (6 * counter6 + 6);}
-    counter6++;
+    if(clickco == 0){resultEl.textContent = 6; topl += 6;}else {resultEl.textContent += 6; topl += (6 * 10 ** clickco);}
+    clickco++;
 }
 function oneFu(){
-    counter1 *= 10 ;
-    if(counter1 == 0){
-        resultEl.textContent = 1;
-    }else {resultEl.textContent += (1 * counter1 + 1);}
-    counter1++;
+    if(clickco == 0){resultEl.textContent = 1; topl += 1;}else {resultEl.textContent += 1; topl += (1 * 10 ** clickco);}
+    clickco++;
 }
 function twoFu(){
-    counter2 *= 10 ;
-    if(counter2 == 0){
-        resultEl.textContent = 2;
-    }else {resultEl.textContent += (2 * counter2 + 2);}
-    counter2++;
+    if(clickco == 0){resultEl.textContent = 2; topl += 2;}else {resultEl.textContent += 2; topl += (2 * 10 ** clickco);}
+    clickco++;
 }
 function threeFu(){
-    counter3 *= 10 ;
-    if(counter3 == 0){
-        resultEl.textContent = 3;
-    }else {resultEl.textContent += (3 * counter3 + 3);}
-    counter3++;
+    if(clickco == 0){resultEl.textContent = 3; topl += 3;}else {resultEl.textContent += 3; topl += (3 * 10 ** clickco);}
+    clickco++;
 }
 function zeroFu(){
-    counter0 *= 10 ;
-    if(counter0 == 0){
-        resultEl.textContent = 0;
-    }else {resultEl.textContent += (0 * counter0+ 0);}
-    counter0++;
+    if(clickco == 0){resultEl.textContent = 0; topl += 0;}else {resultEl.textContent += 0; topl += (0 * 10 ** clickco);}
+    clickco++;
 }
+
 
 
