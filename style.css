@@ -27,6 +27,7 @@ h2{
     border-radius: 50px;
     color: white;
 }
+
 .firstl{
     background-color:#A5A4A5 ;
     border-radius: 50px;
@@ -45,6 +46,11 @@ h2{
     border: none;
     
 }
+.buttons button:hover{
+    background-color: #F79E11;
+    cursor: pointer;
+}
+
 #sıfır{
     padding: 0px 4.75rem;
     border-radius: 50px;
