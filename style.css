@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    max-width: 31rem;
+    max-width: 26rem;
     height: 37rem;
     margin: auto;
     background-color: black;
@@ -13,7 +13,7 @@
 .calculator{
     position: absolute;
     top: 5rem;
-    left: 10rem;
+    left: 3rem;
 }
 h2{
     color: white;
