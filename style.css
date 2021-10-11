@@ -48,8 +48,9 @@ h2{
     
 }
 .buttons button:hover{
-    background-color: #F79E11;
+    background-color: #413d3d;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #sıfır{
