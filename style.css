@@ -52,17 +52,6 @@ h2{
     color: white;
 }
 
-@media screen and (max-width:330px){
-    .buttons button{
-        width: 3.2rem;
-        height: 3.2rem;
-        margin: 0.3rem;
-    }
-    #sıfır{
-        padding: 0px 3.65rem;
-    }
-}
-    
 @media screen and (max-width:380px){
     .buttons button{
         width: 4.2rem;
@@ -72,8 +61,30 @@ h2{
     #sıfır{
         padding: 0px 4.65rem;
     }
+    .calculator{
+        position: absolute;
+        top: 6rem;
+        left: 2rem;
+    }
 }
     
+@media screen and (max-width:330px){
+    .buttons button{
+        width: 3.3rem;
+        height: 3.3rem;
+        margin: 0.3rem;
+    }
+    #sıfır{
+        padding: 0px 3.65rem;
+    }
+    .calculator{
+        position: absolute;
+        top: 6rem;
+        left: 2rem;
+    }
+}
+    
+
 
 
     
