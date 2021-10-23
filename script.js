@@ -39,10 +39,6 @@ function numreversed(num) {
     return reservednum;
 }
 
-function posnegfu(num1) {
-    resultEl.innerHTML = -num1;
-}
-
  function divederFu() {
     if(zeroFind == 1){
         funcoun += 1;
