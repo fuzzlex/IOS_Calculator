@@ -38,6 +38,12 @@ h2{
     border-radius: 50px;
     color: white;
 }
+#virgul{
+    background-color:#333333 ;
+    border-radius: 50px;
+    color: white;
+
+}
 
 .buttons button{
     font-size: 1.5rem;
