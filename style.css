@@ -85,38 +85,37 @@ h2{
     cursor: pointer;
 
 }
-
-
-@media screen and (max-width:380px){
+@media screen and (max-width:390px){
     .buttons button{
-        width: 4.2rem;
-        height: 4.2rem;
-        margin: 0.3rem;
+        width: 4rem;
+        height: 4rem;
+        margin: 0.2rem;
     }
     #sıfır{
-        padding: 0px 4.65rem;
+        padding: 0px 4.1rem;
     }
-    .calculator{
-        position: absolute;
-        top: 6rem;
+    .buttons{
+        top: 14rem;
         left: 2rem;
     }
+
 }
-    
+
 @media screen and (max-width:330px){
     .buttons button{
-        width: 3.3rem;
-        height: 3.3rem;
-        margin: 0.3rem;
+        font-size: 1rem;
+        width: 3.7rem;
+        height: 3.7rem;
+        margin: 0.2rem;
     }
     #sıfır{
-        padding: 0px 3.65rem;
+        padding: 0px 4.1rem;
     }
-    .calculator{
-        position: absolute;
-        top: 6rem;
+    .buttons{
+        top: 14rem;
         left: 2rem;
     }
+
 }
     
 

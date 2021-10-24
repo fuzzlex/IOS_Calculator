@@ -1,6 +1,5 @@
 let resultEl = document.getElementById("result");
-let numberEL = document.querySelectorAll(".number")
-
+let numberEL = document.querySelectorAll(".number");
 
 let clickco = 0;  
 let topl = 0;
@@ -38,6 +37,7 @@ function numreversed(num) {
     let reservednum = (Number(String(Math.abs(n)).split('').reverse().join(''))); 
     return reservednum;
 }
+
 
  function divederFu() {
     if(zeroFind == 1){
@@ -91,7 +91,6 @@ function plusFu() {
     if(zeroFind == 1){
         funcoun += 4;
         topl += toplO;
-        console.log(topl)
         if (funcoun == 4){sonuc1 += topl;}
         else{sonuc2 += topl; 
             let sonuc = sonuc1 + sonuc2;
@@ -151,7 +150,7 @@ numberEL.forEach(function(element){
         if(clickco == 0){resultEl.textContent = Number(this.textContent); topl += Number(this.textContent);}
         else if(dotclick == 1){resultEl.textContent += Number(this.textContent); toplO += Number(this.textContent) * 10 ** (-clickco);}
         else if(topl % 10 == 0 || Number(this.textContent) != 0  ){resultEl.textContent += Number(this.textContent); zeroFind = 1; topl = (topl * 10) + Number(this.textContent);}
-        else if(topl % 10 == 0 || Number(this.textContent) == 0 ){resultEl.textContent += 0; zeroFind = 1; topl *= 10 ;console.log(topl)}
+        else if(topl % 10 == 0 || Number(this.textContent) == 0 ){resultEl.textContent += 0; zeroFind = 1; topl *= 10 ;}
         else if(Number(this.textContent) == 0 ){resultEl.textContent += 0;topl = numreversed(topl) ;  topl *= 10 ;}
         else {resultEl.textContent += Number(this.textContent); topl += (Number(this.textContent) * 10 ** clickco);}
         clickco++;
